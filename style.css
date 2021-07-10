@@ -1,3 +1,4 @@
+/* ブラウザがそれぞれ持っているCSSをリセットするための記述 */
 *{
   margin: 0;
   padding: 0;
@@ -5,55 +6,84 @@
 }
 
 .header{
+  /* 横幅いっぱい */
   width: 100%;
+  /* 高さ120px */
   height: 120px;
+  /* 背景色red */
   background-color:red;
 }
 
 .header-top{
+  /* 横幅いっぱい */
   width: 100%;
+  /* 高さ70px */
   height: 70px;
+  /* 背景色hotpink */
   background-color: hotpink;
 }
 
 .header-bottom{
+  /* 横幅いっぱい */
   width: 100%;
+  /* 高さ50px */;
   height: 50px;
-  background-color: hotpink;
+  /* 背景色pink */
+  background-color: pink;
 }
 
 .main-visual{
+  /* 横幅いっぱい */
   width: 100%;
+  /* 高さ300px */
   height: 300px;
+  /* 背景色orange */
   background-color: orange;
 }
 
 .main-visual-content{
+  /* 横幅350px */
   width: 350px;
+  /* 親の高さに合わせる */
   height: 300px;
+  /* 背景色gold */
   background-color: gold;
 }
 
 .main{
-  width: 100%;
-  height: 1400px;
-  background-color: green;
+  /* 横幅840px */
+  width: 840px;
+  /* Flexboxの利用 */
+  display: flex;
+  /* 要素の横並び・中央寄せ */
+  justify-content: center;
+  /* 中央寄せ(左右に余裕がないとできない) */
+  margin:0 auto;
 }
 
 .blog{
+  /* 横幅600px */
   width: 600px;
-  height: 600px;
+  /* 高さ1400px */
+  height: 1400px;
+  /* 背景色limegreen */
   background-color: limegreen;
 }
 
 .sideber{
+  /* 横幅240px */
   width: 240px;
-  height: 600px;
+  /* 高さ1400px */
+  height: 1400px;
+  /* 背景色palegreen */
   background-color: palegreen;
 }
 
 .footer{
+  /* 横幅いっぱい */
   width: 100%;
+  /* 高さ120px */
   height: 120px;
+  /* 背景色blue */
   background-color: blue;
 }
