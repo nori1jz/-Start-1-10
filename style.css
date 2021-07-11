@@ -5,32 +5,14 @@
   box-sizing: border-box;
 }
 
-.header{
-  /* 横幅いっぱい */
-  width: 100%;
-  /* 高さ120px */
-  height: 120px;
-  /* 背景色red */
-  background-color:red;
-}
 
-.header-top{
-  /* 横幅いっぱい */
-  width: 100%;
-  /* 高さ70px */
-  height: 70px;
-  /* 背景色hotpink */
-  background-color: hotpink;
-}
 
-.header-bottom{
-  /* 横幅いっぱい */
-  width: 100%;
-  /* 高さ50px */;
-  height: 50px;
-  /* 背景色pink */
-  background-color: pink;
-}
+
+
+
+
+
+
 
 .main-visual{
   /* 横幅いっぱい */
@@ -38,7 +20,7 @@
   /* 高さ300px */
   height: 300px;
   /* 背景色orange */
-  background-color: orange;
+
 }
 
 .main-visual-content{
@@ -47,7 +29,7 @@
   /* 親の高さに合わせる */
   height: 300px;
   /* 背景色gold */
-  background-color: gold;
+
 }
 
 .main{
@@ -67,7 +49,7 @@
   /* 高さ1400px */
   height: 1400px;
   /* 背景色limegreen */
-  background-color: limegreen;
+
 }
 
 .sideber{
@@ -76,14 +58,7 @@
   /* 高さ1400px */
   height: 1400px;
   /* 背景色palegreen */
-  background-color: palegreen;
+
 }
 
-.footer{
-  /* 横幅いっぱい */
-  width: 100%;
-  /* 高さ120px */
-  height: 120px;
-  /* 背景色blue */
-  background-color: blue;
-}
+
