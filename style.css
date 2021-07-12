@@ -51,11 +51,12 @@ header .heading{
 }
 
 .main-visual-content{
-  /* 横幅350px */
-  width: 350px;
+  /* 横幅40% */
+  width: 40%;
   /* 親の高さに合わせる */
   height: 300px;
-  /* 背景色gold */
+  /* 背景色半透明の黒 */
+  background-color: rgba(0,0,0,0.5);
 
 }
 
