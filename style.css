@@ -64,6 +64,15 @@ header .heading{
 
 }
 
+.main-visual-text{
+  color: #fff;
+}
+
+.main-visual-name{
+  margin-top: 30px;
+  color: #fff;
+}
+
 .main{
   /* 横幅840px */
   width: 840px;
