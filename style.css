@@ -44,6 +44,8 @@ header .heading{
   background-image: url(img/mv.jpg);
   /* 縦横比を維持したまま背景領域を埋め尽くす */
   background-size: cover;
+  /* 背景画像を中央に配置 */
+  background-position: center;
 
 
 }
