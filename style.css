@@ -41,6 +41,8 @@ header .heading{
   /* 高さ300px */
   height: 300px;
   /* 背景色orange */
+  background-image: url(img/mv.jpg);
+  
 
 }
 
