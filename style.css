@@ -57,6 +57,10 @@ header .heading{
   height: 300px;
   /* 背景色半透明の黒 */
   background-color: rgba(0,0,0,0.5);
+  /* 文字の中央揃え */
+  text-align: center;
+  /* 上側の内側余白で垂直方向の位置を調整 */
+  padding-top: 105px;
 
 }
 
