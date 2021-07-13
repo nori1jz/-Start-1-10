@@ -75,32 +75,13 @@ header .heading{
   color: #fff;
 }
 
-.main{
-  /* 横幅840px */
-  width: 840px;
-  /* Flexboxの利用 */
-  display: flex;
-  /* 要素の横並び・中央寄せ */
-  justify-content: center;
-  /* 中央寄せ(左右に余裕がないとできない) */
-  margin:0 auto;
-}
+
 
 .blog{
-  /* 横幅600px */
-  width: 600px;
-  /* 高さ1400px */
-  height: 1400px;
-  /* 背景色limegreen */
 
 }
 
 .sideber{
-  /* 横幅240px */
-  width: 240px;
-  /* 高さ1400px */
-  height: 1400px;
-  /* 背景色palegreen */
 
 }
 
